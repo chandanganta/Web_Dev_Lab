@@ -8,20 +8,20 @@ This repository contains my lab programs from P1 to P13. I have kept each progra
 
 | Program | Topic |
 |---|---|
-| [P1](P1-Project-Folder-and-Terminal-Navigation/) | Project folder and terminal navigation |
-| [P2](P2-Portfolio-Repo-Initial-Commit/) | Portfolio repo with an initial commit |
-| [P3](P3-Feature-Branch-Git-Workflow/) | Feature-branch Git workflow |
-| [P4](P4-GitHub-README-and-Version-Tags/) | GitHub README and version tags |
+| [P1](P01-Project-Folder-and-Terminal-Navigation/) | Project folder and terminal navigation |
+| [P2](P02-Portfolio-Repo-Initial-Commit/) | Portfolio repo with an initial commit |
+| [P3](P03-Feature-Branch-Git-Workflow/) | Feature-branch Git workflow |
+| [P4](P04-GitHub-README-and-Version-Tags/) | GitHub README and version tags |
 
 ## Module 2 - HTML and CSS foundations
 
 | Program | Topic |
 |---|---|
-| [P5](P5-Semantic-Bio-Page/) | Semantic bio page |
-| [P6](P6-Full-Portfolio-Semantic-HTML/) | Full portfolio page structure in semantic HTML |
-| [P7](P7-Design-Tokens-and-Typography/) | Design tokens and typography system in CSS |
-| [P8](P8-Sticky-Navbar-and-Card-Overlay/) | Sticky navbar and card overlay using CSS positioning |
-| [P9](P9-Responsive-Navbar-and-Card-Grid-Flexbox/) | Responsive navbar and card grid using Flexbox |
+| [P5](P05-Semantic-Bio-Page/) | Semantic bio page |
+| [P6](P06-Full-Portfolio-Semantic-HTML/) | Full portfolio page structure in semantic HTML |
+| [P7](P07-Design-Tokens-and-Typography/) | Design tokens and typography system in CSS |
+| [P8](P08-Sticky-Navbar-and-Card-Overlay/) | Sticky navbar and card overlay using CSS positioning |
+| [P9](P09-Responsive-Navbar-and-Card-Grid-Flexbox/) | Responsive navbar and card grid using Flexbox |
 
 ## Module 3 - CSS layout systems
 
