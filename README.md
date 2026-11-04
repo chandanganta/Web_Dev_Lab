@@ -1,26 +1,42 @@
-# Web_Dev_Lab
-**PROGRAMMING FOR WEB DEVELOPMENT - I LABORATORY**
+# Web Development Lab
 
-Programs are arranged by module.
+**Programming for Web Development - I**
 
-## Module 1: Terminal, Git & GitHub
-- [P1: Project folder and terminal navigation](P1-Project-Folder-and-Terminal-Navigation/)
-- [P2: Portfolio repo with an initial commit](P2-Portfolio-Repo-Initial-Commit/)
-- [P3: Feature-branch Git workflow](P3-Feature-Branch-Git-Workflow/)
-- [P4: GitHub README and version tags](P4-GitHub-README-and-Version-Tags/)
+This repository contains my lab programs from P1 to P13. I have kept each program in a separate folder so I can find the files easily.
 
-## Module 2: HTML & CSS foundations
-- [P5: Semantic bio page](P5-Semantic-Bio-Page/)
-- [P6: Full portfolio page structure in semantic HTML](P6-Full-Portfolio-Semantic-HTML/)
-- [P7: Design tokens and typography system in CSS](P7-Design-Tokens-and-Typography/)
-- [P8: Sticky navbar and card overlay using CSS positioning](P8-Sticky-Navbar-and-Card-Overlay/)
-- [P9: Responsive navbar and card grid using Flexbox](P9-Responsive-Navbar-and-Card-Grid-Flexbox/)
+## Module 1 - Terminal, Git and GitHub
 
-## Module 3: CSS layout systems
-- [P10: Portfolio header and footer with advanced Flexbox](P10-Portfolio-Header-Footer-Advanced-Flexbox/)
-- [P11: Newspaper-style three-column layout with CSS Grid](P11-Newspaper-Three-Column-CSS-Grid/)
-- [P12: Portfolio projects grid with advanced CSS Grid](P12-Portfolio-Projects-Advanced-CSS-Grid/)
-- [P13: Choosing between Flexbox and Grid for a shared layout](P13-Flexbox-vs-Grid-Shared-Layout/)
+| Program | Topic |
+|---|---|
+| [P1](P1-Project-Folder-and-Terminal-Navigation/) | Project folder and terminal navigation |
+| [P2](P2-Portfolio-Repo-Initial-Commit/) | Portfolio repo with an initial commit |
+| [P3](P3-Feature-Branch-Git-Workflow/) | Feature-branch Git workflow |
+| [P4](P4-GitHub-README-and-Version-Tags/) | GitHub README and version tags |
 
-Open each `index.html` in a browser for P5–P13. P1–P4 contain command notes.
-Replace sample name and email details before submitting.
+## Module 2 - HTML and CSS foundations
+
+| Program | Topic |
+|---|---|
+| [P5](P5-Semantic-Bio-Page/) | Semantic bio page |
+| [P6](P6-Full-Portfolio-Semantic-HTML/) | Full portfolio page structure in semantic HTML |
+| [P7](P7-Design-Tokens-and-Typography/) | Design tokens and typography system in CSS |
+| [P8](P8-Sticky-Navbar-and-Card-Overlay/) | Sticky navbar and card overlay using CSS positioning |
+| [P9](P9-Responsive-Navbar-and-Card-Grid-Flexbox/) | Responsive navbar and card grid using Flexbox |
+
+## Module 3 - CSS layout systems
+
+| Program | Topic |
+|---|---|
+| [P10](P10-Portfolio-Header-Footer-Advanced-Flexbox/) | Portfolio header and footer with advanced Flexbox |
+| [P11](P11-Newspaper-Three-Column-CSS-Grid/) | Newspaper-style three-column layout using CSS Grid |
+| [P12](P12-Portfolio-Projects-Advanced-CSS-Grid/) | Portfolio projects grid with advanced CSS Grid |
+| [P13](P13-Flexbox-vs-Grid-Shared-Layout/) | Choosing between Flexbox and Grid for a shared layout |
+
+## How to use
+
+- Each program folder has its own README with the aim and a short explanation.
+- P1 to P4 contain the terminal and Git commands for the activity.
+- For P5 to P13, open the folder and run `index.html` in a browser.
+- The HTML and CSS are kept in separate files. Keep `index.html` and `style.css` in the same folder.
+
+The sample name and email in the portfolio pages can be changed to your own details.
