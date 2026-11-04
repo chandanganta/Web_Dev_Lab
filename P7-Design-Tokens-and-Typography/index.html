@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Design Tokens and Typography</title>
-  
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <main class="card">
-    <h1>My Design System</h1>
-    <p class="muted">A small example of reusable CSS design tokens.</p>
-    <h2>Typography</h2>
-    <p>This text uses the font, colour and line height defined in the stylesheet.</p>
-    <h2>Design Tokens</h2>
-    <p>Colours, spacing and border radius are stored in <code>:root</code> variables and reused in the page.</p>
+  <main class="page">
+    <header class="page-header"><h1>My Design System</h1><p class="muted">A small example of reusable CSS design tokens.</p></header>
+    <section class="content-card">
+      <h2>Typography</h2>
+      <p>This paragraph uses the font family, font size, font weight and line height defined in the stylesheet.</p>
+      <p class="muted">Muted text uses a reusable colour token.</p>
+      <button class="button" type="button">Sample Button</button>
+    </section>
+    <section class="content-card"><h2>Reusable Card</h2><p>This card reuses the same spacing, colour, typography and border-radius tokens.</p></section>
+    <footer><p>Design tokens keep the appearance consistent across a webpage.</p></footer>
   </main>
 </body>
 </html>
