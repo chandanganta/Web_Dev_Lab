@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Responsive Flexbox Layout</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, sans-serif; background: #f1f5f9; color: #243044; }
+    nav { display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 12px; padding: 18px 5%; background: #183b70; }
+    nav a { color: white; text-decoration: none; }
+    .links { display: flex; flex-wrap: wrap; gap: 18px; }
+    main { padding: 28px 5%; }
+    .cards { display: flex; flex-wrap: wrap; gap: 20px; }
+    .card { flex: 1 1 230px; padding: 22px; border-radius: 10px; background: white; box-shadow: 0 3px 12px #00000014; }
+    @media (max-width: 520px) { nav { align-items: flex-start; flex-direction: column; } .links { flex-direction: column; gap: 10px; } }
+  </style>
+</head>
+<body>
+  <nav><strong style="color:white">My Portfolio</strong><div class="links"><a href="#home">Home</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div></nav>
+  <main id="home">
+    <h1>My Projects</h1><p>The navigation and cards adjust when the screen becomes narrow.</p>
+    <section class="cards" id="projects">
+      <article class="card"><h2>Project One</h2><p>A simple HTML webpage.</p></article>
+      <article class="card"><h2>Project Two</h2><p>A page styled with CSS.</p></article>
+      <article class="card"><h2>Project Three</h2><p>A responsive layout using Flexbox.</p></article>
+    </section>
+    <p id="skills">Skills: HTML, CSS and Flexbox.</p><p id="contact">Contact: yourname@example.com</p>
+  </main>
+</body>
+</html>

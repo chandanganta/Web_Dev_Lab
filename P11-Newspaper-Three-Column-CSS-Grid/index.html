@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Times</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 24px; font-family: Georgia, serif; color: #292929; background: #f5f2eb; }
+    header { text-align: center; border-bottom: 3px double #333; margin-bottom: 22px; }
+    header h1 { font-size: 2.6rem; margin-bottom: 6px; }
+    .newspaper { display: grid; grid-template-columns: 1fr 2fr 1fr; gap: 22px; max-width: 1100px; margin: auto; }
+    article, aside { padding: 16px; background: #fffdf8; border: 1px solid #ddd5c7; }
+    .main-story { border-top: 4px solid #8b2e24; }
+    @media (max-width: 760px) { .newspaper { grid-template-columns: 1fr; } header h1 { font-size: 2rem; } }
+  </style>
+</head>
+<body>
+  <header><h1>THE CAMPUS TIMES</h1><p>Student News · Learning · Community</p></header>
+  <main class="newspaper">
+    <aside><h2>Campus Notes</h2><p>Students are preparing for the upcoming project exhibition.</p><p>Clubs have announced new activities for this month.</p></aside>
+    <article class="main-story"><h2>Technology Takes Centre Stage</h2><p>Students are exploring how web technologies can solve everyday problems. Classroom projects help learners practise planning, designing and building.</p><p>Teamwork also helps students share ideas and learn from one another.</p></article>
+    <aside><h2>Quick Updates</h2><ul><li>Library hours updated</li><li>Workshop registrations open</li><li>Sports meet next week</li></ul></aside>
+  </main>
+</body>
+</html>

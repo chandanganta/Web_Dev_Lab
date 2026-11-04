@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Design Tokens and Typography</title>
+  <style>
+    :root {
+      --primary: #2457a7;
+      --text: #243044;
+      --muted: #64748b;
+      --surface: #ffffff;
+      --page: #f1f5f9;
+      --space: 16px;
+      --radius: 10px;
+      --body-font: Arial, sans-serif;
+    }
+    * { box-sizing: border-box; }
+    body { margin: 0; padding: 32px; background: var(--page); color: var(--text); font-family: var(--body-font); line-height: 1.6; }
+    .card { max-width: 720px; margin: 20px auto; padding: calc(var(--space) * 2); background: var(--surface); border-radius: var(--radius); }
+    h1, h2 { color: var(--primary); }
+    h1 { font-size: 2rem; }
+    .muted { color: var(--muted); }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <h1>My Design System</h1>
+    <p class="muted">A small example of reusable CSS design tokens.</p>
+    <h2>Typography</h2>
+    <p>This text uses the font, colour and line height defined in the stylesheet.</p>
+    <h2>Design Tokens</h2>
+    <p>Colours, spacing and border radius are stored in <code>:root</code> variables and reused in the page.</p>
+  </main>
+</body>
+</html>

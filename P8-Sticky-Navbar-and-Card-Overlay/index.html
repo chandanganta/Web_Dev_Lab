@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sticky Navbar and Card Overlay</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, sans-serif; color: #243044; }
+    nav { position: sticky; top: 0; z-index: 10; padding: 16px 24px; background: #183b70; }
+    nav a { color: white; margin-right: 18px; text-decoration: none; }
+    main { max-width: 900px; margin: 30px auto; padding: 0 20px; }
+    .card { position: relative; min-height: 230px; margin: 24px 0; padding: 24px; overflow: hidden; border-radius: 12px; background: #e8eef8; }
+    .overlay { position: absolute; right: 16px; bottom: 16px; padding: 12px 16px; border-radius: 8px; background: #183b70; color: white; }
+  </style>
+</head>
+<body>
+  <nav><a href="#home">Home</a><a href="#about">About</a><a href="#work">Work</a></nav>
+  <main id="home">
+    <h1>Positioning in CSS</h1>
+    <p>Scroll the page to see the navigation bar remain at the top.</p>
+    <section class="card" id="about">
+      <h2>About This Card</h2><p>The card uses relative positioning as the reference for its overlay.</p>
+      <div class="overlay">Card overlay</div>
+    </section>
+    <section class="card" id="work"><h2>More Content</h2><p>This section helps demonstrate the sticky navbar while scrolling.</p></section>
+  </main>
+</body>
+</html>
