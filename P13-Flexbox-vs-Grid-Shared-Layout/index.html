@@ -1,22 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flexbox and Grid Comparison</title>
-  <style>
-    * { box-sizing: border-box; }
-    body { margin: 0; padding: 30px 5%; font-family: Arial, sans-serif; color: #243044; background: #f1f5f9; }
-    .layout { max-width: 1000px; margin: 25px auto; }
-    .toolbar { display: flex; justify-content: space-between; align-items: center; gap: 12px; flex-wrap: wrap; padding: 18px; background: #183b70; color: white; border-radius: 10px 10px 0 0; }
-    .toolbar nav { display: flex; gap: 16px; flex-wrap: wrap; }
-    .toolbar a { color: white; text-decoration: none; }
-    .content-grid { display: grid; grid-template-columns: 2fr 1fr; gap: 18px; padding: 18px; background: white; border-radius: 0 0 10px 10px; }
-    .panel { padding: 20px; background: #e8eef8; border-radius: 8px; }
-    .cards { display: flex; gap: 12px; flex-wrap: wrap; }
-    .cards div { flex: 1 1 120px; padding: 14px; background: white; border-radius: 6px; }
-    @media (max-width: 650px) { .content-grid { grid-template-columns: 1fr; } }
-  </style>
+  
 </head>
 <body>
   <main class="layout">
