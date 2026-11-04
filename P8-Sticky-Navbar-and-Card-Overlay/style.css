@@ -1,0 +1,7 @@
+* { box-sizing: border-box; }
+body { margin: 0; font-family: Arial, sans-serif; color: #243044; }
+nav { position: sticky; top: 0; z-index: 10; padding: 16px 24px; background: #183b70; }
+nav a { color: white; margin-right: 18px; text-decoration: none; }
+main { max-width: 900px; margin: 30px auto; padding: 0 20px; }
+.card { position: relative; min-height: 230px; margin: 24px 0; padding: 24px; overflow: hidden; border-radius: 12px; background: #e8eef8; }
+.overlay { position: absolute; right: 16px; bottom: 16px; padding: 12px 16px; border-radius: 8px; background: #183b70; color: white; }
