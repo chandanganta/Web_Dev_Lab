@@ -1,0 +1,185 @@
+
+/* General Styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f3f6fb;
+}
+
+/* College Header */
+.banner {
+    background-color: #183b66;
+    background-image: linear-gradient(
+        rgba(15, 35, 65, 0.85),
+        rgba(15, 35, 65, 0.85)
+    ), url("https://images.unsplash.com/photo-1497366754035-f200968a6e72");
+
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.banner h1 {
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.banner p {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+/* Main Content */
+main {
+    width: 90%;
+    margin: 35px auto;
+}
+
+/* Section Headings */
+#notice-heading,
+#events-heading {
+    color: #183b66;
+    text-align: center;
+    font-size: 27px;
+    margin-bottom: 25px;
+}
+
+/* Notice Section */
+.notice-section {
+    margin-bottom: 50px;
+}
+
+.notice-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.notice-card {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #d5dfeb;
+    border-left: 5px solid #2878c8;
+    border-radius: 8px;
+    margin: 5px 0;
+}
+
+.notice-card h3 {
+    color: #183b66;
+    font-size: 20px;
+}
+
+.notice-card p {
+    color: rgb(75, 85, 99);
+    line-height: 1.6;
+}
+
+/* Events Section */
+.events-section {
+    margin-bottom: 45px;
+}
+
+.events-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.event-card {
+    background-color: #ffffff;
+    width: 30%;
+    min-width: 250px;
+    padding: 25px;
+    margin: 5px;
+    border: 1px solid #dce3ed;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.event-card h3 {
+    color: #183b66;
+    font-size: 21px;
+    margin-top: 18px;
+}
+
+.event-card p {
+    color: rgb(75, 85, 99);
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.date {
+    color: #2878c8;
+    font-weight: bold;
+}
+
+/* Event Category */
+.category {
+    display: inline-block;
+    background-color: #e2efff;
+    color: #205b96;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* Buttons */
+button {
+    background-color: #2878c8;
+    color: white;
+    padding: 11px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #183b66;
+    transform: translateY(-2px);
+}
+
+/* Footer */
+footer {
+    background-color: #183b66;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+footer p {
+    line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .event-card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 550px) {
+    main {
+        width: 94%;
+    }
+
+    .event-card {
+        width: 100%;
+    }
+
+    .banner h1 {
+        font-size: 23px;
+    }
+}
