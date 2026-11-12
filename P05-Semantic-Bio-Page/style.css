@@ -1,0 +1,160 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.65;
+    color: #344054;
+    background-color: #f0f4f8;
+}
+
+/* Header */
+header {
+    background-color: #25496b;
+    color: white;
+    text-align: center;
+    padding: 42px 20px;
+    border-bottom: 4px solid #9bbbd6;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 35px;
+    letter-spacing: 0.4px;
+}
+
+header p {
+    margin: 7px 0 0;
+    color: #dce8f2;
+    font-size: 16px;
+}
+
+/* Main Layout */
+main {
+    max-width: 1050px;
+    margin: 35px auto;
+    padding: 0 22px;
+    display: grid;
+    grid-template-columns: 1.8fr 1fr;
+    gap: 24px;
+    align-items: stretch;
+}
+
+/* Cards */
+.bio,
+aside {
+    background-color: #ffffff;
+    padding: 28px;
+    border: 1px solid #e0e8ef;
+    border-radius: 12px;
+    box-shadow: 0 4px 14px rgba(38, 65, 90, 0.06);
+}
+
+/* Sections */
+section {
+    margin-bottom: 25px;
+    padding-bottom: 19px;
+    border-bottom: 1px solid #e9eef3;
+}
+
+section:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+    border-bottom: none;
+}
+
+/* Headings */
+h2 {
+    color: #25496b;
+    font-size: 21px;
+    margin: 0 0 12px;
+    padding-left: 11px;
+    border-left: 4px solid #82a8c9;
+}
+
+p {
+    margin: 0 0 10px;
+}
+
+/* Lists */
+ul {
+    padding-left: 22px;
+    margin: 0;
+}
+
+li {
+    padding: 4px 0;
+    color: #526477;
+}
+
+/* Sidebar */
+aside {
+    background-color: #fafdff;
+}
+
+aside h2:not(:first-child) {
+    margin-top: 32px;
+}
+
+/* Footer */
+footer {
+    background-color: #e3ebf3;
+    text-align: center;
+    padding: 24px 20px;
+    margin-top: 35px;
+    border-top: 1px solid #d5e0e9;
+}
+
+footer h2 {
+    display: inline-block;
+    border-left: none;
+    border-bottom: 2px solid #82a8c9;
+    padding: 0 0 5px;
+}
+
+footer p {
+    color: #596b7c;
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+/* Subtle Hover */
+.bio,
+aside {
+    transition: box-shadow 0.2s ease;
+}
+
+.bio:hover,
+aside:hover {
+    box-shadow: 0 7px 20px rgba(38, 65, 90, 0.10);
+}
+
+/* Responsive Design */
+@media (max-width: 700px) {
+    header {
+        padding: 34px 15px;
+    }
+
+    header h1 {
+        font-size: 29px;
+    }
+
+    main {
+        grid-template-columns: 1fr;
+        margin: 25px auto;
+        padding: 0 16px;
+        gap: 18px;
+    }
+
+    .bio,
+    aside {
+        padding: 22px;
+    }
+
+    footer {
+        margin-top: 25px;
+    }
+}
