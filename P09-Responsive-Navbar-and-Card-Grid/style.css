@@ -1,0 +1,192 @@
+/* General Styling */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #183b66;
+    color: white;
+    padding: 18px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    color: #8ec5ff;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #24578b;
+    color: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.hero h1 {
+    font-size: 32px;
+    letter-spacing: 1px;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+/* About Section */
+.about {
+    width: 85%;
+    margin: 35px auto;
+    padding: 25px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.about h2 {
+    color: #183b66;
+}
+
+.about p {
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Courses Section */
+.courses {
+    padding: 30px 20px;
+    text-align: center;
+}
+
+.courses h2 {
+    color: #183b66;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+
+/* Card Container using Flexbox */
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+    width: 90%;
+    margin: auto;
+}
+
+/* Individual Cards */
+.card {
+    background-color: white;
+    width: 30%;
+    min-width: 250px;
+    padding: 25px;
+    margin: 5px;
+    border: 1px solid #d5dfeb;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: left;
+}
+
+.card h3 {
+    color: #183b66;
+    font-size: 21px;
+}
+
+.card p {
+    color: #555;
+    line-height: 1.6;
+}
+
+button {
+    background-color: #2878c8;
+    color: white;
+    padding: 10px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #183b66;
+}
+
+/* Footer */
+footer {
+    background-color: #183b66;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+footer p {
+    line-height: 1.5;
+}
+
+/* Tablet Responsive Design */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .card {
+        width: 45%;
+    }
+}
+
+/* Mobile Responsive Design */
+@media (max-width: 550px) {
+    .navbar ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .hero h1 {
+        font-size: 24px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .about {
+        width: 92%;
+    }
+
+    .card-container {
+        width: 95%;
+    }
+}
