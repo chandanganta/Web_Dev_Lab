@@ -1,32 +1,25 @@
 # P3 – Feature-Branch Git Workflow
 
 ## Aim
-To understand how Git branches are created, used, and merged.
-
-## Practical
-This practical demonstrates the branch workflow through Git commands and README documentation only. No HTML or CSS files are required.
+To create a feature branch, make a change, and push the branch to GitHub.
 
 ## Commands
+Run these commands from the project repository:
+
 ```bash
-git switch -c p03-feature-branch-workflow
+git switch -c feature/my-change
 git status
-git add README.md
-git commit -m "Document P3 branch workflow"
-git switch main
-git merge p03-feature-branch-workflow
-git branch
-git log --oneline --graph --all
+git add .
+git commit -m "Add a portfolio change"
+git push -u origin feature/my-change
 ```
 
 ## Description
-- `git switch -c` creates and switches to a new branch.
-- `git status` checks the working-tree status.
-- `git add README.md` stages the practical documentation.
-- `git commit` records the change on the current branch.
-- `git switch main` returns to the main branch.
-- `git merge` combines the feature branch into main.
-- `git branch` lists local branches.
-- `git log --oneline --graph --all` displays the branch and commit history.
+- `git switch -c feature/my-change` creates and switches to a new feature branch.
+- `git status` displays the current working-tree status.
+- `git add .` stages the changes.
+- `git commit -m "Add a portfolio change"` records the changes in the feature branch.
+- `git push -u origin feature/my-change` pushes the feature branch to GitHub and sets its upstream.
 
 ## Result
-A feature branch was created, used for a documentation change, and merged into the main branch.
+A feature branch was created, updated with a commit, and pushed to the remote GitHub repository.
