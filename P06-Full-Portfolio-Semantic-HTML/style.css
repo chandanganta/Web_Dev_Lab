@@ -1,9 +1,0 @@
-* { box-sizing: border-box; }
-body { margin: 0; font-family: Arial, sans-serif; line-height: 1.6; color: #263238; }
-header { padding: 25px; text-align: center; background: #244b74; color: white; }
-nav { display: flex; justify-content: center; flex-wrap: wrap; gap: 22px; padding: 14px; background: #172f49; }
-nav a { color: white; text-decoration: none; }
-main { max-width: 900px; margin: 25px auto; padding: 0 20px; }
-section, aside, article { margin-bottom: 18px; padding: 18px; background: #f1f5f9; border-radius: 8px; }
-footer { padding: 18px; text-align: center; background: #e2e8f0; }
-@media (max-width: 520px) { nav { flex-direction: column; align-items: center; gap: 10px; } }
