@@ -1,26 +1,28 @@
 # P2 – Portfolio Repo with an Initial Commit
 
 ## Aim
-To create a simple portfolio project and save its starting version using Git.
+To understand how a project repository is created and how its first commit is recorded using Git.
 
-## Project Files
-- `index.html` – portfolio page structure
-- `style.css` – external stylesheet
+## Repository
+This practical is documented using a README file only. No HTML or CSS files are required for P1–P4.
 
 ## Git Commands
+Run these commands in a new project folder when practising the workflow:
+
 ```bash
 git init
 git status
-git add .
+git add README.md
 git commit -m "Initial commit"
 git log --oneline
 ```
 
 ## Description
-The portfolio introduces the student, lists skills and projects, and includes a contact section. CSS is kept in a separate file.
+- `git init` initializes a Git repository.
+- `git status` displays the current working-tree status.
+- `git add README.md` stages the README file.
+- `git commit -m "Initial commit"` records the first version.
+- `git log --oneline` displays the commit history.
 
 ## Result
-The portfolio project was added to the Web_Dev_Lab repository. The first project commit records the initial version.
-
-## Note
-This practical is stored as a folder inside the existing Web_Dev_Lab GitHub repository so all laboratory work remains together.
+The purpose and commands for creating a repository with an initial commit are documented.
