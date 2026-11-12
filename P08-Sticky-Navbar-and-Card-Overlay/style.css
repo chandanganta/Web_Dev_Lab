@@ -1,0 +1,190 @@
+/* General Styling */
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fc;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #183b66;
+    color: white;
+    padding: 15px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.navbar a:hover {
+    color: #8ec5ff;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #24578b;
+    color: white;
+    text-align: center;
+    padding: 90px 20px;
+}
+
+.hero h1 {
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.hero p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* Content Section */
+.content {
+    width: 85%;
+    margin: 40px auto;
+    padding: 25px;
+    background-color: white;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.content h2 {
+    color: #183b66;
+}
+
+.content p {
+    color: #555;
+    line-height: 1.7;
+}
+
+/* Card Section */
+.card-section {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.card-section h2 {
+    color: #183b66;
+    margin-bottom: 25px;
+}
+
+/* Card */
+.card {
+    position: relative;
+    width: 60%;
+    max-width: 650px;
+    height: 350px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Overlay */
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px;
+    background-color: rgba(24, 59, 102, 0.88);
+    color: white;
+    text-align: center;
+}
+
+.overlay h3 {
+    font-size: 22px;
+}
+
+.overlay p {
+    line-height: 1.5;
+}
+
+button {
+    background-color: white;
+    color: #183b66;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #8ec5ff;
+}
+
+/* Footer */
+footer {
+    background-color: #183b66;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+footer p {
+    line-height: 1.5;
+}
+
+/* Responsive Design */
+@media (max-width: 650px) {
+    .navbar {
+        flex-direction: column;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .navbar ul {
+        gap: 12px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero h1 {
+        font-size: 22px;
+    }
+
+    .card {
+        width: 95%;
+    }
+
+    .content {
+        width: 92%;
+    }
+}
