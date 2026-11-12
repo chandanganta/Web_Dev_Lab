@@ -1,33 +1,34 @@
 # P1 – Project Folder and Terminal Navigation
 
 ## Aim
-To create a project folder and perform basic terminal navigation commands.
+To create a portfolio project folder and practise basic terminal navigation.
 
 ## Commands
-
 Run these commands in the terminal:
 
 ```bash
-cd ~
-ls
-mkdir -p Web_Dev_Lab
-cd Web_Dev_Lab
 pwd
+mkdir MyPortfolio
+cd MyPortfolio
+mkdir images css
 ls
-ls -la
+cd css
+pwd
+cd ..
 ```
 
 ## Description
-
-- `cd ~` moves to the home directory.
-- `ls` lists the files and folders in the current directory.
-- `mkdir -p Web_Dev_Lab` creates the project folder if it does not already exist.
-- `cd Web_Dev_Lab` moves into the project folder.
 - `pwd` displays the current working directory.
-- `ls -la` displays the detailed list, including hidden files.
+- `mkdir MyPortfolio` creates the portfolio folder.
+- `cd MyPortfolio` moves into the folder.
+- `mkdir images css` creates two folders for images and CSS files.
+- `ls` lists the folders inside MyPortfolio.
+- `cd css` moves into the CSS folder.
+- `pwd` displays the path of the CSS folder.
+- `cd ..` returns to the MyPortfolio folder.
 
 ## Result
-The project folder was accessed successfully, and terminal navigation and directory-listing commands were executed.
+The MyPortfolio folder and its images and css subfolders were created, and terminal navigation commands were practised.
 
 ## Output Screenshots
-Attach the screenshots of your actual terminal output here in the practical record.
+Attach screenshots of your actual terminal output in the practical record.
